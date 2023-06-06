@@ -7,9 +7,9 @@
 
 const int trigPin = 13;
 const int echoPin = 12;
-const char* ssid = "CableMas-FamiliaRios";//Red Wi-Fi a usar HUAWEI nova 9 SE
-const char* password = "fra67732819";//fra67732819/dilan2006-
-const char* mqtt_server = "192.168.101.17";//Dirección IP del broker (RPI 3B+)
+const char* ssid = "Dilan";//Red Wi-Fi a usar
+const char* password = "12345";//clave del WiFi a usar
+const char* mqtt_server = "192.168...";//Dirección IP del broker (RPI 3B+)
 WiFiClient espClient;
 PubSubClient client(espClient);
 unsigned long lastMsg = 0;
